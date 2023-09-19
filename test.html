@@ -1,12 +1,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Hanh Widget STG</title>
+    <title>Hanh Widget TEST</title>
     <meta name="description" content="The HTML5 Herald" />
     <meta name="author" content="Hanh Truong" />
   </head>
   <body>
-    <h1>Environment: STG</h1>
+    <h1>Environment: TEST</h1>
     <table>
       <tr>
         <td>Language:</td>
@@ -38,5 +38,19 @@
       }
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type='text/javascript'>
+    (function(o,l) {
+        window.oliviaChatData = window.oliviaChatData || [];
+        window.oliviaChatBaseUrl = o;
+        window.oliviaChatData.push(['setKey', l]);
+        window.oliviaChatData.push(['start']);
+        var apply = document.createElement('script');
+        apply.type = 'text/javascript';
+        apply.async = true;
+        apply.src = 'https://d2cxf26suf1qae.cloudfront.net/static/site/js/widget-client.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(apply, s);
+    })('https://test.paradox.ai', 'telmtvrnmeszrfcpjlpt');
+    </script>
   </body>
 </html>
